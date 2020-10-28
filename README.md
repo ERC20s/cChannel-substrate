@@ -7,7 +7,7 @@
 * [Buidling and Testing celer-pay runtime module from source](#building-and-testing-celer-pay-runtime-module-from-source)
 
 ## Overview
-CelerPay is a generalized payment network that supports efficient off-chain token transfer with the capbability to resolve arbitrary conditional dependency on on-chain verifiable states. This repo implements the CelerPay runtime module with substrate. It includes a collection of runtime module acting as the binding of core CelerPay abstractions and supporting modules. CeleryPay runtime module only specify the interaction logic of two peers. A network of payment channels can be built using these single-hop primitives and protocols.
+CelerPay is a generalized payment network that supports efficient off-chain token transfer with the capbability to resolve arbitrary conditional dependency on on-chain verifiable states. This repo implements the CelerPay runtime module with substrate. It includes a collection of runtime module acting as the binding of core CelerPay abstractions and supporting modules. CelerPay runtime module only specify the interaction logic of two peers. A network of payment channels can be built using these single-hop primitives and protocols.
 
 To learn more about Celer state channel network, please refer to the [CelerCore technical documentation](https://www.celer.network/docs/celercore/channel/overview.html). More specifically, [this page](https://www.celer.network/docs/celercore/channel/pay_contracts.html) gives a detailed description of our smart contract design, structure, and API flows.
 
